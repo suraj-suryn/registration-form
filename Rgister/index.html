@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="inner">
+        <div class="photo">
+            <img src="signin-image.jpg">
+        </div>
+        <div class="user-form">
+            <h1>Welcome</h1>
+            <form action="register.php" method="post">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Your Name" name="UserName" id="username">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Your Email" name="email" id="email">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Create password" name="password" id="password">
+                <div class="safety">
+                    <span>Password Strenth</span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="action-btn">
+                    <button class="btn primary">Create Account</button>
+                    <button class="btn">Sign In</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
